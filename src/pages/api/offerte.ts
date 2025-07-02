@@ -182,7 +182,7 @@ async function generateOffertePDF(data: any) {
         color: PDF_CONFIG.COLORS.TEXT_LIGHT 
       });
       
-      const contactInfo = 'E-Mail: Inreinigunggmbh@gmail.com | Tel: +41 76 123 45 67 | www.ln-reinigung.ch';
+      const contactInfo = 'E-Mail: mikaleclerc5@gmail.com | Tel: +41 76 123 45 67 | www.ln-reinigung.ch';
       const contactWidth = fontRegular.widthOfTextAtSize(contactInfo, PDF_CONFIG.FONTS.FOOTER);
       page.drawText(contactInfo, { 
         x: rightX - contactWidth, 
@@ -777,9 +777,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const currentDate = new Date().toLocaleDateString('de-CH');
 
     // Configuration email optimisée
-    const smtpUser = 'Inreinigunggmbh@gmail.com';
+    const smtpUser = 'mikaleclerc5@gmail.com';
     const smtpPass = 'xburhsvdnbjwnfmh';
-    const adminEmail = 'Inreinigunggmbh@gmail.com';
+    const adminEmail = 'mikaleclerc5@gmail.com';
 
     const transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -816,7 +816,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           <hr style="border: none; border-top: 1px solid #eee; margin: 30px 0;">
           <p style="font-size: 12px; color: #666; text-align: center;">
             L&N Reinigung – Professionelle Reinigung mit Schweizer Garantie<br>
-            E-Mail: Inreinigunggmbh@gmail.com | Tel: +41 76 123 45 67
+            E-Mail: mikaleclerc5@gmail.com | Tel: +41 76 123 45 67
           </p>
         </div>
       `,
