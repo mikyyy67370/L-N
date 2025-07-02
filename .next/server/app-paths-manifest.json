@@ -1,16 +1,6 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/[locale]/page": "app/[locale]/page.js",
-  "/services/car-interior-cleaning/page": "app/services/car-interior-cleaning/page.js",
-  "/avant-apres/page": "app/avant-apres/page.js",
-  "/offerte/page": "app/offerte/page.js",
-  "/services/carpet-cleaning/page": "app/services/carpet-cleaning/page.js",
-  "/services/end-of-tenancy/page": "app/services/end-of-tenancy/page.js",
   "/page": "app/page.js",
-  "/services/furniture-cleaning/page": "app/services/furniture-cleaning/page.js",
-  "/services/page": "app/services/page.js",
-  "/services/office-cleaning/page": "app/services/office-cleaning/page.js",
-  "/services/private-cleaning/page": "app/services/private-cleaning/page.js",
-  "/services/sofa-cleaning/page": "app/services/sofa-cleaning/page.js",
-  "/services/terrace-cleaning/page": "app/services/terrace-cleaning/page.js"
+  "/offerte/page": "app/offerte/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/offerte/success/page": "app/offerte/success/page.js"
 }
