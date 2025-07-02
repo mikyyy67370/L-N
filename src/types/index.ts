@@ -7,6 +7,15 @@ export interface CleaningService {
   category: 'residential' | 'commercial' | 'specialized';
 }
 
+// Service-Typ für die Preisliste
+export interface Service {
+  id: string;
+  name: string;
+  description: string;
+  basePrice: number;
+  category: 'residential' | 'specialized';
+}
+
 // Typen für das Angebotsformular
 export interface QuoteRequest {
   firstName: string;

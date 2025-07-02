@@ -1,20 +1,137 @@
 {
   "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/app/_not-found-7c37862d4f1fa87e.js"
+    ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/css/ea3616402549e638.css",
+      "static/chunks/app/layout-46a0a90a87005e19.js"
     ],
     "/[locale]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/page.js"
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/109-d33cd01121fb0df0.js",
+      "static/chunks/app/[locale]/page-0bffe02847a9ef5f.js"
+    ],
+    "/services/car-interior-cleaning/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/app/services/car-interior-cleaning/page-02962579fd673bca.js"
+    ],
+    "/avant-apres/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/app/avant-apres/page-fdf2ec66c548d841.js"
+    ],
+    "/offerte/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/app/offerte/page-0a014a812e6a7f3d.js"
+    ],
+    "/services/carpet-cleaning/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/app/services/carpet-cleaning/page-ebe714512d935300.js"
+    ],
+    "/services/end-of-tenancy/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/app/services/end-of-tenancy/page-04d4f1ba99509248.js"
     ],
     "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/109-d33cd01121fb0df0.js",
+      "static/chunks/app/page-bd90f8d6839eb074.js"
+    ],
+    "/services/furniture-cleaning/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/app/services/furniture-cleaning/page-5de0e2f70fd4b10e.js"
+    ],
+    "/services/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/app/services/page-c005dc5037bdac22.js"
+    ],
+    "/services/office-cleaning/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/app/services/office-cleaning/page-d8591305a931b6d5.js"
+    ],
+    "/services/private-cleaning/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/app/services/private-cleaning/page-e3954b43f3efd5e4.js"
+    ],
+    "/services/sofa-cleaning/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/app/services/sofa-cleaning/page-607e900cf5cc05ac.js"
+    ],
+    "/services/terrace-cleaning/page": [
+      "static/chunks/webpack-60371afaa9c05bd1.js",
+      "static/chunks/fd9d1056-cd52168f35d7c510.js",
+      "static/chunks/938-4ba3de07a9b6a5e6.js",
+      "static/chunks/main-app-80de28ab8e958406.js",
+      "static/chunks/221-fe2ba521dcbc10ac.js",
+      "static/chunks/262-5dbd750438850e5f.js",
+      "static/chunks/app/services/terrace-cleaning/page-a116b490b256009b.js"
     ]
   }
 }
