@@ -312,13 +312,13 @@ async function generateOffertePDF(data: any) {
   
   currentPage.drawText(`${data.firstName} ${data.lastName}`, { x: PDF_CONFIG.MARGINS.LEFT, y, size: PDF_CONFIG.FONTS.BODY, font: fontRegular });
   y -= PDF_CONFIG.SPACING.LINE;
-  currentPage.drawText(`${data.strasse} ${data.hausnummer}`, { x: PDF_CONFIG.MARGINS.LEFT, y, size: PDF_CONFIG.FONTS.BODY, font: fontRegular });
+  currentPage.drawText(`${data.address}`, { x: PDF_CONFIG.MARGINS.LEFT, y, size: PDF_CONFIG.FONTS.BODY, font: fontRegular });
   y -= PDF_CONFIG.SPACING.LINE;
-  currentPage.drawText(`${data.plz} ${data.ort}`, { x: PDF_CONFIG.MARGINS.LEFT, y, size: PDF_CONFIG.FONTS.BODY, font: fontRegular });
+  currentPage.drawText(`${data.plz} ${data.city}`, { x: PDF_CONFIG.MARGINS.LEFT, y, size: PDF_CONFIG.FONTS.BODY, font: fontRegular });
   y -= PDF_CONFIG.SPACING.LINE;
   
-  if (data.telefon) {
-    currentPage.drawText(`Tel: ${data.telefon}`, { x: PDF_CONFIG.MARGINS.LEFT, y, size: PDF_CONFIG.FONTS.BODY, font: fontRegular });
+  if (data.phone) {
+    currentPage.drawText(`Tel: ${data.phone}`, { x: PDF_CONFIG.MARGINS.LEFT, y, size: PDF_CONFIG.FONTS.BODY, font: fontRegular });
     y -= PDF_CONFIG.SPACING.LINE;
   }
   
