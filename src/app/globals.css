@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Lato:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+  
+  /* L&N Reinigung Brand Colors */
+  --brand-gold: #C8A951;
+  --brand-dark-brown: #1F1F1F;
+  --brand-cream: #FAFAFA;
+  --brand-white: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Lato', 'Inter', sans-serif;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Custom Typography Classes */
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-brand-gold hover:bg-brand-gold/90 text-brand-dark-brown font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-brand-dark-brown hover:bg-brand-dark-brown/90 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300;
+  }
+  
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+
+  /* Hero Section Styles */
+  .hero-gradient {
+    background: linear-gradient(135deg, rgba(31, 31, 31, 0.7) 0%, rgba(31, 31, 31, 0.4) 50%, rgba(200, 169, 81, 0.2) 100%);
+  }
+
+  /* Animation Classes */
+  .hover-lift {
+    @apply transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .scale-on-hover {
+    @apply transition-transform duration-300 ease-out hover:scale-105;
+  }
+} 
